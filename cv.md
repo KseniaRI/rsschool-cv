@@ -1,13 +1,13 @@
 # Ksenia Pilshchikova
-## Fullstack developer
+Fullstack developer
 
-### About me
+## About me
 
 <img src="assets/images/portrait.jpeg" alt="portrait picture" width="200" height="250">
 
 > *Coding is my passion, learning every new technology inspires me and make me code-addicted. My previous work background were related to logistics but I decided to switch to follow my passion.*
 
-#### Contacts
+### Contacts
 
 - Phone: +(39)3248647586
 - Mail: ksushapi@gmail.com
@@ -15,7 +15,7 @@
 - GitHub: https://github.com/KseniaRI
 - Address: Italy, Busto Arsizio
 
-### Skills
+## Skills
 
 - React , Redux, Next
 - JS, Typescript
@@ -32,7 +32,7 @@
 - English - B2, Italian - fluent, Russian - native
 
 
-### Education
+## Education
 
 - **Master in Mathematics**
     Ural State University, 2000 - 2005
@@ -45,7 +45,7 @@
 - **AWS Cloud Developer**
     RS School, 05.2024 - 08.2024
 
-### Experience
+## Experience
 
 - **Full-stack developer, stage** [Bogoda project](https://guider.pro/). 10.2023 - 03.2024
     - Tourist guide  start-up project, use React, Next, Typescript, Firebase, FSD
