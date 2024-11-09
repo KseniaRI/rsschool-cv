@@ -1,2 +1,3 @@
 # rsschool-cv
-CV Markdown
+[CV Markdown](https://kseniari.github.io/rsschool-cv/cv)
+
