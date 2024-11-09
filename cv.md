@@ -1,9 +1,9 @@
 # Ksenia Pilshchikova
 ## Fullstack developer
 
-<img src="assets/images/portrait.jpeg" alt="portrait picture" width="300">
+<img src="assets/images/portrait.jpeg" alt="portrait picture" width="200" height="200">
 
-> Coding is my passion, learning every new technology inspires me and make me code-addicted. My previous work background were related to logistics but I decided to switch to follow my passion.
+> *Coding is my passion, learning every new technology inspires me and make me code-addicted. My previous work background were related to logistics but I decided to switch to follow my passion.*
 
 ### Education
 
@@ -29,3 +29,19 @@
     - Created React components with hooks, used React router dom, Redux, Tilwind CSS, Typescript, Ant design, responsible layout
     - Testing with React testing Library
     - Team work
+
+### Skills
+
+- React , Redux, Next
+- JS, Typescript
+- Git
+- CSS, SCSS, Tailwind CSS, styled components, BEM
+- FSD architecture for Frontend
+- Ant Design, Bootstrap
+- REST API,  GraphQL
+- TypeoRM, Prisma
+- Node.js, Express, Nest, MongoDB, Websockets, Docker
+- AWS Cloud (Lambda, API Gateway, EB, SNS, SQS, RDS)
+- Firebase
+- Jest, React Testing Library
+- English - B2, Italian - fluent, Russian - native
