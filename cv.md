@@ -1,7 +1,6 @@
-# Ksenia Pilshchikova
-Fullstack developer
+# Ksenia Pilshchikova. Fullstack developer
 
-## About me
+## Summary
 
 <img src="assets/images/portrait.jpeg" alt="portrait picture" width="200" height="250">
 
@@ -49,8 +48,8 @@ Fullstack developer
 
 - **Full-stack developer, stage** [Bogoda project](https://guider.pro/). 10.2023 - 03.2024
     - Tourist guide  start-up project, use React, Next, Typescript, Firebase, FSD
-    - Responsable of code review,   merging of the dev branches to the main repository and merge conflicts solving
-    - Responsable of Firebase database operations and authentication 
+    - Responsible of code review,   merging of the dev branches to the main repository and merge conflicts solving
+    - Responsibly of Firebase database operations and authentication 
     - Team work
 - **Junior React developer, stage** [Easy improv](https://easy-improv.com/). 01/2023 - 05/2023
     - Created React components with hooks, used React router dom, Redux, Tilwind CSS, Typescript, Ant design, responsible layout
