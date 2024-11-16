@@ -33,7 +33,7 @@
 
 ## Education
 
-- **Master in Mathematics**
+- **Bachelor's degree in Mathematics**
     Ural State University, 2000 - 2005
 - **Fullstack  developer**
     GoIT Academy, 10.2021 - 12.2022
