@@ -16,7 +16,7 @@
 
 ## Skills
 
-- React , Redux, Next
+- React, Redux, Next
 - JS, Typescript
 - Git
 - CSS, SCSS, Tailwind CSS, styled components, BEM
