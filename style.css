@@ -155,7 +155,8 @@ section:not(:last-of-type) {
     margin-top: 15px;
 }
 
-.main-list a {
+.main-list a,
+.secondary-list a {
   text-decoration: underline;  
 } 
 
