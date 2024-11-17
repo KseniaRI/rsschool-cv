@@ -80,13 +80,22 @@ main p {
     align-items: center;
 }
 
+.logo {
+    font-size: 28px;
+}
+
 .socials-list {
     display: flex;
+    gap: 20px;
+}
+.socials-list a{
+    font-size: 24px;
 }
 
 .aside {
     display: flex;
     flex-direction: column;
+    gap: 15px;
     align-items: center;
     background-color: #000; 
     color: #fff;
@@ -100,12 +109,20 @@ main p {
     }
 }
 
-.skills-list {
+.aside-list {
     list-style: disc;
 }
 
-.skills-list > *+* {
+.aside-list > *+* {
     padding-top: 10px;
+}
+
+.aside-list li > *+* {
+    margin-top: 10px;
+}
+
+.aside div {
+    margin-right: auto;
 }
 
 .picture {
@@ -130,6 +147,31 @@ section:not(:last-of-type) {
     padding-bottom: 20px;
 }
 
+.about-article > *+* {
+    margin-top: 10px;
+}
+
+.main-list > *+* {
+    margin-top: 15px;
+}
+
+.main-list a {
+  text-decoration: underline;  
+} 
+
+.main-list li > *+* {
+    margin-top: 10px;
+}
+
+.secondary-list{
+    list-style: disc;
+    padding-left: 40px;
+}
+
+.secondary-list > *+* {
+    padding-top: 10px;
+}
+
 .footer {
     width: 100%;
     background-color: #000; 
@@ -141,19 +183,6 @@ section:not(:last-of-type) {
 
 .address-list {
     display: flex;
-    justify-content: space-between;  
-}
-
-.main-list > *+* {
-    margin-top: 15px;
-}
-
-.secondary-list{
-    list-style: disc;
-    padding-left: 40px;
-    
-}
-
-.secondary-list > *+* {
-    padding-top: 10px;
+    justify-content: space-between; 
+    font-style: normal; 
 }
