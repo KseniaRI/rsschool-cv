@@ -167,8 +167,8 @@
             </ul>
         </section>
         <section>
-            <h2>Code examples</h2>
-            <ul class="main-list">
+            <h2>Code examples:</h2>
+            <ul class="secondary-list">
                 <li>
                     <a href="https://github.com/KseniaRI/shop-be">Math Squad Shop BE</a>
                     <p>microservices and cloud-based backend</p>
@@ -177,7 +177,36 @@
                     <a href="https://github.com/KseniaRI/next-fe-be">Next.js app</a>
                     <p>Simple Next.js application with app router for navigation and api routs for backend functionality</p>
                 </li>
+                <li>
+                    <p>
+                        JS function that converts a string in math operation and calculate it
+                    </p>
+                    <pre class="code-example"><code>
+    const calculate = function (expression) {
+        const arr = expression.split(' ');
+        const stack = arr.reverse().reduce((acc, elem) => {
+            if (!Number.isNaN(+elem)) {
+                return [...acc, elem];
+            } else {
+                const operator = elem;
+                const firstOperand = acc.pop();
+                const secondOperand = acc.pop();
+                const result = eval(`${firstOperand}${operator}${secondOperand}`);
+                return [...acc, result]
+            }
+        }, [])
+        return stack[0];
+    }
+    
+    console.log(calculate('+ 3 4')) // 7
+    console.log(calculate('- 3 * 4 5')) //-17
+    console.log(calculate('* + 3 4 5')) // 35
+    console.log(calculate('/ - 3 9 + 1 2')) // -2
+                    </code></pre>        
+                </li>
             </ul>
+           
+
         </section>
     </main>
     </div>
@@ -199,6 +228,9 @@
                     </li>
                     <li>
                         <a href="https://hh.ru/resume/123d4b6cff0c018ec00039ed1f795547706775">hh</a>
+                    </li>
+                    <li>
+                        <p>Discord: kseniari_74462</p>
                     </li>
                     <li>
                         <p>Italy, Busto Arsizio</p>
