@@ -32,7 +32,7 @@
     </header>
     <div class="page-wrap">
         <aside class="aside">
-            <img class="picture" src="assets/images/portrait.jpeg" alt="Ksenia Pilshchikova" width="200" height="250" />
+            <img class="picture" src="assets/images/portrait.jpeg" alt="Ksenia Pilshchikova" width="200" height="250" >
             <div>
                 <h2>Skills:</h2>
                 <ul class="aside-list">
@@ -189,7 +189,7 @@
                     <pre class="code-example"><code>
     const calculate = function (expression) {
         const arr = expression.split(' ');
-        const stack = arr.reverse().reduce((acc, elem) => {
+        const stack = arr.reverse().reduce((acc, elem) =&gt; {
             if (!Number.isNaN(+elem)) {
                 return [...acc, elem];
             } else {
@@ -218,7 +218,7 @@
             <address>
                 <ul class="address-list">
                     <li>
-                        <a href="tel:+393248647586">Tel: +(39)3248647586</a>
+                        <a href="tel:+393248647586">tel:+393248647586</a>
                     </li>
                     <li>
                        <a href="mailto:ksushapi@gmail.com">Email: ksushapi@gmail.com</a>
@@ -241,7 +241,9 @@
                 </ul>
             </address>
             <div class="info">
-                <a href="https://rs.school/courses/javascript">RS School</a>
+                <a href="https://rs.school/courses/javascript">
+                    <img src="./assets/images/rs-school-logo.svg" alt="rs-school" width="80" height="80">
+                </a>
                 <p>2024</p>
             </div>
         </div>
