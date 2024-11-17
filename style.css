@@ -169,7 +169,7 @@ section:not(:last-of-type) {
 }
 
 .secondary-list > *+* {
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .footer {
