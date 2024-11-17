@@ -1,5 +1,6 @@
 # rsschool-cv
 CV Markdown
-https://GITHUB-USERNAME.github.io/rsschool-cv/cv
 
-https://GITHUB-USERNAME.github.io/rsschool-cv/
+https://kseniari.github.io/rsschool-cv
+
+https://kseniari.github.io/rsschool-cv/cv
