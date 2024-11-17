@@ -7,14 +7,26 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <div class="page-container">
+            <div class="header-wrap">
+                <p>Ksenia Pilshchikova</p>
+                <ul class="socials-list">
+                    <li>
+                        <a href="https://www.linkedin.com/in/ksenia-pilshchikova" target="_blank">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/KseniaRI" target="_blank">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
-    <aside>
-        
-       
-            <h3>Skills</h3>
-            <ul>
+    <div class="page-wrap">
+        <aside class="aside">
+            <img class="picture" src="assets/images/portrait.jpeg" alt="Ksenia Pilshchikova" width="200" height="250" />
+            <h2>Skills:</h2>
+            <ul class="skills-list">
                 <li>
                     <p>React, Redux, Next</p>
                 </li>
@@ -55,17 +67,15 @@
                     <p>English - B2, Italian - fluent, Russian - native</p>
                 </li>
             </ul>
-        
     </aside>
-    <main>
+    <main class="main-content">
         <section>
-            <h1>CV Ksenia Pilshchikova</h1>
-            <img src="assets/images/portrait.jpeg" alt="Ksenia Pilshchikova" width="200" height="250" />
+            <h1>Ksenia Pilshchikova</h1>
             <p>Coding is my passion, learning every new technology inspires me and make me code-addicted. My previous work background were related to logistics but I decided to switch to follow my passion.</p>
         </section>
         <section>
             <h2>Education</h2>
-            <ul>
+            <ul class="main-list">
                 <li>
                     <h4>Bachelor's degree in Mathematics</h4>
                     <p>Ural State University, 2000 - 2005</p>
@@ -90,12 +100,14 @@
         </section>
         <section>
             <h2>Experience</h2>
-            <ul>
+            <ul class="main-list">
                 <li>
                     <h3>Full-stack developer, stage</h3>
-                    <a href="https://guider.pro/" target="_blank">Bogoda project</a>
-                    <p>10.2023 - 03.2024</p>
-                    <ul>
+                    <h4>
+                        <a href="https://guider.pro/" target="_blank">Bogoda project</a>
+                        <span> 10.2023 - 03.2024</span>
+                    </h4>
+                    <ul class="secondary-list">
                         <li>
                             <p>Tourist guide  start-up project, use React, Next, Typescript, Firebase, FSD</p>
                         </li>
@@ -112,9 +124,11 @@
                 </li>
                 <li>
                     <h3>Junior React developer, stage</h3>
-                    <a href="https://easy-improv.com/" target="_blank">Easy improv</a>
-                    <p>01/2023 - 05/2023</p>
-                    <ul>
+                    <h4>
+                        <a href="https://easy-improv.com/" target="_blank">Easy improv</a>
+                        <span> 01/2023 - 05/2023</span>
+                    </h4>
+                    <ul class="secondary-list">
                         <li>
                             <p>Created React components with hooks, used React router dom, Redux, Tilwind CSS, Typescript, Ant design, responsible layout</p>
                         </li>
@@ -129,32 +143,29 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <address>
-            <h3>Contacts</h3>
-            <ul>
-                <li>
-                    <b>Phone: </b>
-                    <a href="tel: +393248647586">+(39)3248647586</a>
-                </li>
-                <li>
-                   <b>Mail: </b>
-                   <a href="mailto: ksushapi@gmail.com">ksushapi@gmail.com</a>
-                </li>
-                <li>
-                    <b>Linkedin: </b>
-                    <a href="https://www.linkedin.com/in/ksenia-pilshchikova" target="_blank">Linkedin</a>
-                </li>
-                <li>
-                    <b>GitHub: </b>
-                    <a href="https://github.com/KseniaRI" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <b>Address</b>
-                    <p>Italy, Busto Arsizio</p>
-                </li>
-            </ul>
-        </address>
+    </div>
+    <footer class="footer">
+        <div class="page-container">
+            <address>
+                <ul class="address-list">
+                    <li>
+                        <a href="tel:+393248647586">Tel: +(39)3248647586</a>
+                    </li>
+                    <li>
+                       <a href="mailto:ksushapi@gmail.com">Email: ksushapi@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ksenia-pilshchikova" target="_blank">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/KseniaRI" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <p>Italy, Busto Arsizio</p>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
